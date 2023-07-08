@@ -1,0 +1,1042 @@
+{
+    "generateSiteMap": {
+        "group": "optionGroupSitemap",
+        "name": "generateSiteMap",
+        "description": "Press to generate sitemap",
+        "title": "Generate Sitemap",
+        "control": "button",
+        "listValues": null,
+        "value": "\/sitemap\/generate",
+        "defaultValue": "\/sitemap\/generate"
+    },
+    "adminEmail": {
+        "group": "optionGroupGeneral",
+        "name": "adminEmail",
+        "description": "Type here administrator's email",
+        "title": "Administrator's Email",
+        "control": "input",
+        "listValues": null,
+        "value": "admin@library-cms.com",
+        "defaultValue": "admin@library-cms.com"
+    },
+    "defaultLanguage": {
+        "group": "optionGroupGeneral",
+        "name": "defaultLanguage",
+        "description": "Select default language",
+        "title": "Default language",
+        "control": "select",
+        "listValues": {
+            "en_US": "English",
+            "ru_RU": "Russian"
+        },
+        "value": "en_US",
+        "defaultValue": "en_US"
+    },
+    "noImageFilePath": {
+        "group": "optionGroupImages",
+        "name": "noImageFilePath",
+        "description": "This image will be displayed if image is not specified",
+        "title": "No Image",
+        "control": "file",
+        "listValues": null,
+        "value": "\/resources\/images\/comingsoon.png",
+        "defaultValue": "\/resources\/images\/comingsoon.png"
+    },
+    "noBookImageFilePath": {
+        "group": "optionGroupImages",
+        "name": "noBookImageFilePath",
+        "description": "This image will be displayed if book image in not specified",
+        "title": "No Book",
+        "control": "file",
+        "listValues": null,
+        "value": "\/resources\/images\/comingsoon.png",
+        "defaultValue": "\/resources\/images\/comingsoon.png"
+    },
+    "noUserImageFilePath": {
+        "group": "optionGroupImages",
+        "name": "noUserImageFilePath",
+        "description": "This image will be displayed if user photo in not specified",
+        "title": "No User",
+        "control": "file",
+        "listValues": null,
+        "value": "\/resources\/images\/noavatar.png",
+        "defaultValue": "\/resources\/images\/noavatar.png"
+    },
+    "logoFilePath": {
+        "group": "optionGroupImages",
+        "name": "logoFilePath",
+        "description": "This image will be displayed as site logo image",
+        "title": "Logo",
+        "control": "file",
+        "listValues": null,
+        "value": "\/resources\/images\/logo.png",
+        "defaultValue": "\/resources\/images\/logo.png"
+    },
+    "favIconFilePath": {
+        "group": "optionGroupImages",
+        "name": "favIconFilePath",
+        "description": "This image will be displayed as site favicon",
+        "title": "FavIcon",
+        "control": "file",
+        "listValues": null,
+        "value": "\/resources\/images\/favicon.png",
+        "defaultValue": "\/resources\/images\/favicon.png"
+    },
+    "blogURL": {
+        "group": "optionGroupGeneral",
+        "name": "blogURL",
+        "description": "Location of blog with leading slash",
+        "title": "Blog URL",
+        "control": "input",
+        "listValues": null,
+        "value": "\/blog",
+        "defaultValue": "\/blog"
+    },
+    "adminURL": {
+        "group": "optionGroupGeneral",
+        "name": "adminURL",
+        "description": "Location of admin part of site with leading slash",
+        "title": "Admin URL",
+        "control": "input",
+        "listValues": null,
+        "value": "\/admin",
+        "defaultValue": "\/admin"
+    },
+    "siteName": {
+        "group": "optionGroupGeneral",
+        "name": "siteName",
+        "description": "Type here name of site",
+        "title": "Site Name",
+        "control": "input",
+        "listValues": null,
+        "value": "Library CMS",
+        "defaultValue": "Library CMS"
+    },
+    "footerCredits": {
+        "group": "optionGroupGeneral",
+        "name": "footerCredits",
+        "description": "Type here footer credits",
+        "title": "Footer Credits",
+        "control": "input",
+        "listValues": null,
+        "value": "\u00a9 2023 Library CMS.",
+        "defaultValue": "&copy; 2023 Library CMS."
+    },
+    "imagesPerPage": {
+        "group": "optionGroupGeneral",
+        "name": "imagesPerPage",
+        "description": "Number of images per page",
+        "title": "Images Per Page",
+        "control": "select",
+        "listValues": {
+            "6": "6",
+            "12": "12",
+            "18": "18",
+            "24": "24",
+            "30": "30"
+        },
+        "value": "12",
+        "defaultValue": 12
+    },
+    "usersPerPage": {
+        "group": "optionGroupGeneral",
+        "name": "usersPerPage",
+        "description": "Number of users per page",
+        "title": "Users Per Page",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "userMessagesPerPage": {
+        "group": "optionGroupGeneral",
+        "name": "userMessagesPerPage",
+        "description": "Number of user messages per page",
+        "title": "User Messages Per Page",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "menusPerPage": {
+        "group": "optionGroupGeneral",
+        "name": "menusPerPage",
+        "description": "Number of menus per page",
+        "title": "Menus Per Page",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "bookViewType": {
+        "group": "optionGroupBooks",
+        "name": "bookViewType",
+        "description": "Select book view type",
+        "title": "Book View Type [Public]",
+        "control": "select",
+        "listValues": {
+            "grid": "Grid",
+            "list": "List",
+            "miniList": "Mini List"
+        },
+        "value": "grid",
+        "defaultValue": "grid"
+    },
+    "booksPerPageAdmin": {
+        "group": "optionGroupBooks",
+        "name": "booksPerPageAdmin",
+        "description": "Number of books per page in admin part",
+        "title": "Books Per Page [Admin]",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "booksPerPagePublic": {
+        "group": "optionGroupBooks",
+        "name": "booksPerPagePublic",
+        "description": "Number of books per page on public pages",
+        "title": "Books Per Page [Public]",
+        "control": "select",
+        "listValues": {
+            "6": "6",
+            "12": "12",
+            "24": "24",
+            "36": "36",
+            "48": "48"
+        },
+        "value": "24",
+        "defaultValue": 24
+    },
+    "booksPerPagePublicFilter": {
+        "group": "optionGroupBooks",
+        "name": "booksPerPagePublicFilter",
+        "description": "Number of filtered books per page on public pages",
+        "title": "Books Per Page With Filter [Public]",
+        "control": "select",
+        "listValues": {
+            "8": "8",
+            "16": "16",
+            "24": "24",
+            "32": "32",
+            "48": "48"
+        },
+        "value": "24",
+        "defaultValue": 24
+    },
+    "booksPerPageIndex": {
+        "group": "optionGroupBooks",
+        "name": "booksPerPageIndex",
+        "description": "Number of last created books on main (index) page",
+        "title": "Last Books Number [Index]",
+        "control": "select",
+        "listValues": {
+            "6": "6",
+            "12": "12",
+            "24": "24",
+            "36": "36",
+            "48": "48"
+        },
+        "value": "24",
+        "defaultValue": 24
+    },
+    "rssBooksNumber": {
+        "group": "optionGroupBooks",
+        "name": "rssBooksNumber",
+        "description": "Number of last created books for RSS",
+        "title": "RSS Books Number",
+        "control": "select",
+        "listValues": {
+            "5": "5",
+            "10": "10",
+            "15": "15",
+            "20": "20",
+            "25": "25"
+        },
+        "value": "10",
+        "defaultValue": 10
+    },
+    "topRatedBooksNumberIndex": {
+        "group": "optionGroupBooks",
+        "name": "topRatedBooksNumberIndex",
+        "description": "Number of top rated books on main (index) page",
+        "title": "Top Rated Books Number [Index]",
+        "control": "select",
+        "listValues": {
+            "3": "3",
+            "6": "6",
+            "9": "9",
+            "12": "12",
+            "15": "15"
+        },
+        "value": "6",
+        "defaultValue": 6
+    },
+    "authorPerPageIndex": {
+        "group": "optionGroupBooks",
+        "name": "authorPerPageIndex",
+        "description": "Number of authors on main (index) page",
+        "title": "Authors Per Page [Index]",
+        "control": "select",
+        "listValues": {
+            "6": "6",
+            "9": "9",
+            "12": "12",
+            "15": "15",
+            "18": "18"
+        },
+        "value": "6",
+        "defaultValue": 6
+    },
+    "postPerPageIndex": {
+        "group": "optionGroupBooks",
+        "name": "postPerPageIndex",
+        "description": "Number of posts on main (index) page",
+        "title": "Posts Per Page [Index]",
+        "control": "select",
+        "listValues": {
+            "6": "6",
+            "12": "12",
+            "24": "24",
+            "36": "36",
+            "48": "48"
+        },
+        "value": "24",
+        "defaultValue": 24
+    },
+    "reviewsPerPage": {
+        "group": "optionGroupBooks",
+        "name": "reviewsPerPage",
+        "description": "Number of reviews per page in admin part",
+        "title": "Reviews Per Page",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "reviewsPerPagePublic": {
+        "group": "optionGroupBooks",
+        "name": "reviewsPerPagePublic",
+        "description": "Number of reviews per page on public pages",
+        "title": "Reviews Per Page [Public]",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "issuesPerPage": {
+        "group": "optionGroupBooks",
+        "name": "issuesPerPage",
+        "description": "Number of issues per page in admin part",
+        "title": "Issues Per Page",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "issueLogsPerPage": {
+        "group": "optionGroupBooks",
+        "name": "issueLogsPerPage",
+        "description": "Number of issue logs per page in admin part",
+        "title": "Issue Logs Per Page",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "requestsPerPage": {
+        "group": "optionGroupBooks",
+        "name": "requestsPerPage",
+        "description": "Number of requests per page in admin part",
+        "title": "Requests Per Page",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "authorsPerPage": {
+        "group": "optionGroupGeneral",
+        "name": "authorsPerPage",
+        "description": "Number of authors per page in admin part",
+        "title": "Authors Per Page [Admin]",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "authorsPerPagePublic": {
+        "group": "optionGroupGeneral",
+        "name": "authorsPerPagePublic",
+        "description": "Number of authors per page on public pages",
+        "title": "Authors Per Page [Public]",
+        "control": "select",
+        "listValues": {
+            "6": "6",
+            "12": "12",
+            "24": "24",
+            "36": "36",
+            "48": "48"
+        },
+        "value": "24",
+        "defaultValue": 24
+    },
+    "postsPerPage": {
+        "group": "optionGroupGeneral",
+        "name": "postsPerPage",
+        "description": "Number of posts per page in admin part",
+        "title": "Posts Per Page [Admin]",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "pagesPerPage": {
+        "group": "optionGroupGeneral",
+        "name": "pagesPerPage",
+        "description": "Number of pages per page in admin part",
+        "title": "Pages Per Page [Admin]",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "postsPerPagePublic": {
+        "group": "optionGroupGeneral",
+        "name": "postsPerPagePublic",
+        "description": "Number of posts per page on public pages",
+        "title": "Posts Per Page [Public]",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 10
+    },
+    "publishersPerPage": {
+        "group": "optionGroupGeneral",
+        "name": "publishersPerPage",
+        "description": "Number of publishers per page in admin part",
+        "title": "Publishers Per Page",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "seriesPerPage": {
+        "group": "optionGroupGeneral",
+        "name": "seriesPerPage",
+        "description": "Number of series per page in admin part",
+        "title": "Series Per Page",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "genresPerPage": {
+        "group": "optionGroupGeneral",
+        "name": "genresPerPage",
+        "description": "Number of genres per page in admin part",
+        "title": "Genres Per Page",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "tagsPerPage": {
+        "group": "optionGroupGeneral",
+        "name": "tagsPerPage",
+        "description": "Number of tags per page in admin part",
+        "title": "Tags Per Page",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "storesPerPage": {
+        "group": "optionGroupGeneral",
+        "name": "storesPerPage",
+        "description": "Number of stores per page in admin part",
+        "title": "Stores Per Page",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "locationsPerPage": {
+        "group": "optionGroupGeneral",
+        "name": "locationsPerPage",
+        "description": "Number of locations per page in admin part",
+        "title": "Locations Per Page",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "bookFieldsPerPage": {
+        "group": "optionGroupGeneral",
+        "name": "bookFieldsPerPage",
+        "description": "Number of custom book fields per page in admin part",
+        "title": "Custom Book Fields Per Page",
+        "control": "select",
+        "listValues": {
+            "10": "10",
+            "20": "20",
+            "30": "30",
+            "40": "40",
+            "50": "50"
+        },
+        "value": "20",
+        "defaultValue": 20
+    },
+    "maxSearchResultNumber": {
+        "group": "optionGroupGeneral",
+        "name": "maxSearchResultNumber",
+        "description": "Max number items in search response",
+        "title": "Max Search Result Number",
+        "control": "input",
+        "listValues": null,
+        "value": "10",
+        "defaultValue": 10
+    },
+    "dateFormat": {
+        "group": "optionGroupDateTimeFormats",
+        "name": "dateFormat",
+        "description": "Date format",
+        "title": "Date Format",
+        "control": "input",
+        "listValues": null,
+        "value": "M d, Y",
+        "defaultValue": "M d, Y"
+    },
+    "publishingDateFormat": {
+        "group": "optionGroupDateTimeFormats",
+        "name": "publishingDateFormat",
+        "description": "Publishing date format",
+        "title": "Publishing Date Format",
+        "control": "input",
+        "listValues": null,
+        "value": "M\/Y",
+        "defaultValue": "M\/Y"
+    },
+    "publishingDateFormatJS": {
+        "group": "optionGroupDateTimeFormats",
+        "name": "publishingDateFormatJS",
+        "description": "Publishing date format for JS",
+        "title": "Publishing Date Format [JavaScript]",
+        "control": "input",
+        "listValues": null,
+        "value": "mm\/yyyy",
+        "defaultValue": "mm\/yyyy"
+    },
+    "dateTimeFormat": {
+        "group": "optionGroupDateTimeFormats",
+        "name": "dateTimeFormat",
+        "description": "Date\/Time format",
+        "title": "Date\/Time Format",
+        "control": "input",
+        "listValues": null,
+        "value": "M d, Y H:i:s",
+        "defaultValue": "M d, Y H:i:s"
+    },
+    "inputDateFormat": {
+        "group": "optionGroupDateTimeFormats",
+        "name": "inputDateFormat",
+        "description": "Input date format",
+        "title": "Input Date Format",
+        "control": "input",
+        "listValues": null,
+        "value": "m\/d\/Y",
+        "defaultValue": "m\/d\/Y"
+    },
+    "inputDateFormatJS": {
+        "group": "optionGroupDateTimeFormats",
+        "name": "inputDateFormatJS",
+        "description": "Input date format for JS",
+        "title": "Input Date Format [JavaScript]",
+        "control": "input",
+        "listValues": null,
+        "value": "mm\/dd\/yyyy",
+        "defaultValue": "mm\/dd\/yyyy"
+    },
+    "inputDateTimeFormat": {
+        "group": "optionGroupDateTimeFormats",
+        "name": "inputDateTimeFormat",
+        "description": "Input date\/time format",
+        "title": "Input Date\/Time Format",
+        "control": "input",
+        "listValues": null,
+        "value": "m\/d\/Y H:i:s",
+        "defaultValue": "m\/d\/Y H:i:s"
+    },
+    "inputDateTimeFormatJS": {
+        "group": "optionGroupDateTimeFormats",
+        "name": "inputDateTimeFormatJS",
+        "description": "Input date\/time format for JS",
+        "title": "Input Date\/Time Format [JavaScript]",
+        "control": "input",
+        "listValues": null,
+        "value": "MM\/DD\/YYYY HH:mm:ss",
+        "defaultValue": "MM\/DD\/YYYY HH:mm:ss"
+    },
+    "adminColorSchema": {
+        "group": "optionGroupGeneral",
+        "name": "adminColorSchema",
+        "description": "Select Admin Color Schema",
+        "title": "Admin Color Schema",
+        "control": "select",
+        "listValues": {
+            "Light": "Light",
+            "Dark": "Dark"
+        },
+        "value": "Light",
+        "defaultValue": "Light"
+    },
+    "priceCurrency": {
+        "group": "optionGroupGeneral",
+        "name": "priceCurrency",
+        "description": "Default price currency",
+        "title": "Price Currency",
+        "control": "select",
+        "listValues": {
+            "ALL": "Albania Lek",
+            "AFN": "Afghanistan Afghani",
+            "ARS": "Argentina Peso",
+            "AWG": "Aruba Guilder",
+            "AUD": "Australia Dollar",
+            "AZN": "Azerbaijan New Manat",
+            "BSD": "Bahamas Dollar",
+            "BBD": "Barbados Dollar",
+            "BDT": "Bangladeshi taka",
+            "BYR": "Belarus Ruble",
+            "BZD": "Belize Dollar",
+            "BMD": "Bermuda Dollar",
+            "BOB": "Bolivia Boliviano",
+            "BAM": "Bosnia and Herzegovina Convertible Marka",
+            "BWP": "Botswana Pula",
+            "BGN": "Bulgaria Lev",
+            "BRL": "Brazil Real",
+            "BND": "Brunei Darussalam Dollar",
+            "KHR": "Cambodia Riel",
+            "CAD": "Canada Dollar",
+            "KYD": "Cayman Islands Dollar",
+            "CLP": "Chile Peso",
+            "CNY": "China Yuan Renminbi",
+            "COP": "Colombia Peso",
+            "CRC": "Costa Rica Colon",
+            "HRK": "Croatia Kuna",
+            "CUP": "Cuba Peso",
+            "CZK": "Czech Republic Koruna",
+            "DKK": "Denmark Krone",
+            "DOP": "Dominican Republic Peso",
+            "XCD": "East Caribbean Dollar",
+            "EGP": "Egypt Pound",
+            "SVC": "El Salvador Colon",
+            "EEK": "Estonia Kroon",
+            "EUR": "Euro Member Countries",
+            "FKP": "Falkland Islands (Malvinas) Pound",
+            "FJD": "Fiji Dollar",
+            "GHC": "Ghana Cedis",
+            "GIP": "Gibraltar Pound",
+            "GTQ": "Guatemala Quetzal",
+            "GGP": "Guernsey Pound",
+            "GYD": "Guyana Dollar",
+            "HNL": "Honduras Lempira",
+            "HKD": "Hong Kong Dollar",
+            "HUF": "Hungary Forint",
+            "ISK": "Iceland Krona",
+            "INR": "India Rupee",
+            "IDR": "Indonesia Rupiah",
+            "IRR": "Iran Rial",
+            "IMP": "Isle of Man Pound",
+            "ILS": "Israel Shekel",
+            "JMD": "Jamaica Dollar",
+            "JPY": "Japan Yen",
+            "JEP": "Jersey Pound",
+            "KZT": "Kazakhstan Tenge",
+            "KPW": "Korea (North) Won",
+            "KRW": "Korea (South) Won",
+            "KGS": "Kyrgyzstan Som",
+            "LAK": "Laos Kip",
+            "LVL": "Latvia Lat",
+            "LBP": "Lebanon Pound",
+            "LRD": "Liberia Dollar",
+            "LTL": "Lithuania Litas",
+            "MKD": "Macedonia Denar",
+            "MYR": "Malaysia Ringgit",
+            "MUR": "Mauritius Rupee",
+            "MXN": "Mexico Peso",
+            "MNT": "Mongolia Tughrik",
+            "MZN": "Mozambique Metical",
+            "NAD": "Namibia Dollar",
+            "NPR": "Nepal Rupee",
+            "ANG": "Netherlands Antilles Guilder",
+            "NZD": "New Zealand Dollar",
+            "NIO": "Nicaragua Cordoba",
+            "NGN": "Nigeria Naira",
+            "NOK": "Norway Krone",
+            "OMR": "Oman Rial",
+            "PKR": "Pakistan Rupee",
+            "PAB": "Panama Balboa",
+            "PYG": "Paraguay Guarani",
+            "PEN": "Peru Nuevo Sol",
+            "PHP": "Philippines Peso",
+            "PLN": "Poland Zloty",
+            "QAR": "Qatar Riyal",
+            "RON": "Romania New Leu",
+            "RUB": "Russia Ruble",
+            "SHP": "Saint Helena Pound",
+            "SAR": "Saudi Arabia Riyal",
+            "RSD": "Serbia Dinar",
+            "SCR": "Seychelles Rupee",
+            "SGD": "Singapore Dollar",
+            "SBD": "Solomon Islands Dollar",
+            "SOS": "Somalia Shilling",
+            "ZAR": "South Africa Rand",
+            "LKR": "Sri Lanka Rupee",
+            "SEK": "Sweden Krona",
+            "CHF": "Switzerland Franc",
+            "SRD": "Suriname Dollar",
+            "SYP": "Syria Pound",
+            "TWD": "Taiwan New Dollar",
+            "THB": "Thailand Baht",
+            "TTD": "Trinidad and Tobago Dollar",
+            "TRY": "Turkey Lira",
+            "TRL": "Turkey Lira",
+            "TMT": "Turkmenistan Manat",
+            "TVD": "Tuvalu Dollar",
+            "UAH": "Ukraine Hryvna",
+            "GBP": "United Kingdom Pound",
+            "USD": "United States Dollar",
+            "UYU": "Uruguay Peso",
+            "UZS": "Uzbekistan Som",
+            "VEF": "Venezuela Bolivar",
+            "VND": "Viet Nam Dong",
+            "YER": "Yemen Rial",
+            "ZWD": "Zimbabwe Dollar"
+        },
+        "value": "NGN",
+        "defaultValue": "USD"
+    },
+    "mainPageAuthorListType": {
+        "group": "optionGroupGeneral",
+        "name": "mainPageAuthorListType",
+        "description": "Select author list type on home page",
+        "title": "Author List Type [Home Page]",
+        "control": "select",
+        "listValues": {
+            "TopAuthors": "Top Rated",
+            "RandomAuthors": "Random"
+        },
+        "value": "TopAuthors",
+        "defaultValue": "TopAuthors"
+    },
+    "mainPageBookListType": {
+        "group": "optionGroupGeneral",
+        "name": "mainPageBookListType",
+        "description": "Select book list type on home page",
+        "title": "Book List Type [Home Page]",
+        "control": "select",
+        "listValues": {
+            "TopBooks": "Top Rated",
+            "RandomBooks": "Random"
+        },
+        "value": "TopBooks",
+        "defaultValue": "TopBooks"
+    },
+    "showShareLinks": {
+        "group": "optionGroupGeneral",
+        "name": "showShareLinks",
+        "description": "Check to show share links",
+        "title": "Show share links",
+        "control": "checkbox",
+        "listValues": null,
+        "value": true,
+        "defaultValue": true
+    },
+    "showDownloadLink": {
+        "group": "optionGroupGeneral",
+        "name": "showDownloadLink",
+        "description": "Check to show eBook download link",
+        "title": "Show eBook download link",
+        "control": "checkbox",
+        "listValues": null,
+        "value": true,
+        "defaultValue": true
+    },
+    "showDownloadLinkToRegisteredOnly": {
+        "group": "optionGroupGeneral",
+        "name": "showDownloadLinkToRegisteredOnly",
+        "description": "Check to show eBook download link to registered users only",
+        "title": "Show eBook download link to registered users only",
+        "control": "checkbox",
+        "listValues": null,
+        "value": false,
+        "defaultValue": false
+    },
+    "showReadLink": {
+        "group": "optionGroupGeneral",
+        "name": "showReadLink",
+        "description": "Check to show eBook read link",
+        "title": "Show eBook read link",
+        "control": "checkbox",
+        "listValues": null,
+        "value": true,
+        "defaultValue": true
+    },
+    "showReadLinkToRegisteredOnly": {
+        "group": "optionGroupGeneral",
+        "name": "showReadLinkToRegisteredOnly",
+        "description": "Check to show eBook read link to registered users only",
+        "title": "Show eBook read link to registered users only",
+        "control": "checkbox",
+        "listValues": null,
+        "value": false,
+        "defaultValue": false
+    },
+    "showCarousel": {
+        "group": "optionGroupGeneral",
+        "name": "showCarousel",
+        "description": "Check to show book carousel on main (index) page",
+        "title": "Show book carousel",
+        "control": "checkbox",
+        "listValues": null,
+        "value": true,
+        "defaultValue": true
+    },
+    "publicForRegisteredUsersOnly": {
+        "group": "optionGroupGeneral",
+        "name": "publicForRegisteredUsersOnly",
+        "description": "Check to show public pages for registered users only",
+        "title": "Show public pages for registered users only",
+        "control": "checkbox",
+        "listValues": null,
+        "value": false,
+        "defaultValue": false
+    },
+    "enableRegistration": {
+        "group": "optionGroupGeneral",
+        "name": "enableRegistration",
+        "description": "Check to enable user registration",
+        "title": "Enable user registration",
+        "control": "checkbox",
+        "listValues": null,
+        "value": true,
+        "defaultValue": true
+    },
+    "reviewCreator": {
+        "group": "optionGroupBooks",
+        "name": "reviewCreator",
+        "description": "Select who can create book reviews",
+        "title": "Book review creator",
+        "control": "select",
+        "listValues": {
+            "Everybody": "Everybody",
+            "User": "User",
+            "Nobody": "Nobody"
+        },
+        "value": "Everybody",
+        "defaultValue": "Everybody"
+    },
+    "moderateReviews": {
+        "group": "optionGroupBooks",
+        "name": "moderateReviews",
+        "description": "Enable\/disable moderation before review publishing",
+        "title": "Moderate book reviews",
+        "control": "checkbox",
+        "listValues": null,
+        "value": true,
+        "defaultValue": true
+    },
+    "useGetRequestBookSearch": {
+        "group": "optionGroupBooks",
+        "name": "useGetRequestBookSearch",
+        "description": "Check to use book search via GET request",
+        "title": "Use GET book search",
+        "control": "checkbox",
+        "listValues": null,
+        "value": false,
+        "defaultValue": false
+    },
+    "bookUrlType": {
+        "group": "optionGroupBooks",
+        "name": "bookUrlType",
+        "description": "Check to use book ID in url like <b>\/book\/123<\/b>.<br\/>Uncheck to use stored book URLs like <b>\/book\/lord-of-the-rings<\/b>.",
+        "title": "Choose Book Url Type",
+        "control": "checkbox",
+        "listValues": null,
+        "value": true,
+        "defaultValue": true
+    },
+    "enableBookLogs": {
+        "group": "optionGroupBooks",
+        "name": "enableBookLogs",
+        "description": "Check to enable book request\/issue logging.",
+        "title": "Enable Book Request\/Issue Logs",
+        "control": "checkbox",
+        "listValues": null,
+        "value": true,
+        "defaultValue": true
+    },
+    "enableBookIssue": {
+        "group": "optionGroupBooks",
+        "name": "enableBookIssue",
+        "description": "Check to enable book issue ability.",
+        "title": "Enable book issue",
+        "control": "checkbox",
+        "listValues": null,
+        "value": true,
+        "defaultValue": true
+    },
+    "enableBookRequest": {
+        "group": "optionGroupBooks",
+        "name": "enableBookRequest",
+        "description": "Check to enable book request ability.",
+        "title": "Enable book request",
+        "control": "checkbox",
+        "listValues": null,
+        "value": true,
+        "defaultValue": true
+    },
+    "lightLogoFilePath": {
+        "group": "optionGroupImages",
+        "name": "lightLogoFilePath",
+        "description": "This image will be displayed as site light logo image",
+        "title": "Light Logo",
+        "control": "file",
+        "listValues": null,
+        "value": "\/resources\/images\/logo-light.png",
+        "defaultValue": "\/resources\/images\/logo-light.png"
+    },
+    "enableBookIssueByUser": {
+        "group": "optionGroupBooks",
+        "name": "enableBookIssueByUser",
+        "description": "Check to enable book issue by any user.",
+        "title": "Enable book issue by users (without librarian)",
+        "control": "checkbox",
+        "listValues": null,
+        "value": false,
+        "defaultValue": false
+    },
+    "enableBookRSS": {
+        "group": "optionGroupBooks",
+        "name": "enableBookRSS",
+        "description": "Check to enable book RSS.",
+        "title": "Enable book RSS",
+        "control": "checkbox",
+        "listValues": null,
+        "value": true,
+        "defaultValue": false
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "isEnabled": false,
+    "isUserAutoRegistration": true,
+    "isUseBothAuth": true,
+    "server": "localhost",
+    "port": 389,
+    "serviceAccountDN": "cn=administrator,cn=Users,dc=library-cms,dc=com",
+    "serviceAccountPassword": "123",
+    "searchBase": "cn=Users,dc=library-cms,dc=com",
+    "adminGroupName": "cn=Administrators,dc=library-cms,dc=com",
+    "librarianGroupName": "cn=Librarians,dc=library-cms,dc=com",
+    "userGroupName": "cn=Users,dc=library-cms,dc=com",
+    "loginAttributeName": "uid",
+    "dnAttributeName": "dn",
+    "emailAttributeName": "mail",
+    "firstNameAttributeName": "fn",
+    "lastNameAttributeName": "ln"
+}
