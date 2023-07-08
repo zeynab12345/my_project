@@ -1,1 +1,1 @@
-# my_project
+## Project name: Library Management System
